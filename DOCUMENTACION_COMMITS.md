@@ -167,6 +167,56 @@ fix(core): SCRUM-9 - limpieza de archivos legacy y ajustes finales
 ```
 ──────────────────────────────────────────
 
+──────────────────────────────────────────
+**ID TAREA:**     SCRUM-10
+**TIPO:**         feat
+**SCOPE:**        docs
+**DESCRIPCIÓN:**  agregar diagramas UML e infraestructura al proyecto
+**ARCHIVOS:**     README.md, diagramas_uml (2).md, infrastructure_guide.md
+**DETALLE:**      Se actualizó el README.md principal del proyecto para reflejar la versión actual (MediFlow), incluyendo enlaces directos a la documentación existente sobre diagramas UML y la guía de infraestructura.
+──────────────────────────────────────────
+**MENSAJE DE COMMIT:**
+```text
+feat(docs): SCRUM-10 - agregar diagramas UML e infraestructura al proyecto
+
+- Archivo diagramas_uml (2).md con diagramas del sistema
+- Archivo infrastructure_guide.md con guia de infraestructura
+- Referencias integradas en el README.md actualizadas al proyecto actual
+```
+──────────────────────────────────────────
+
+──────────────────────────────────────────
+**ID TAREA:**     SCRUM-11
+**TIPO:**         delete
+**SCOPE:**        core
+**DESCRIPCIÓN:**  eliminar script auxiliar de commits
+**ARCHIVOS:**     do_commits.ps1
+**DETALLE:**      Se eliminó el script auxiliar en PowerShell usado para la configuración inicial y el empaquetado de commits, garantizando que el código de producción y el repositorio queden libres de artefactos transitorios.
+──────────────────────────────────────────
+**MENSAJE DE COMMIT:**
+```text
+delete(core): SCRUM-11 - eliminar script auxiliar de commits
+
+- Se elimina el archivo de inicializacion do_commits.ps1 del proyecto ya que su ciclo de vida termino
+```
+──────────────────────────────────────────
+
+──────────────────────────────────────────
+**ID TAREA:**     SCRUM-12
+**TIPO:**         feat
+**SCOPE:**        docs
+**DESCRIPCIÓN:**  actualizar registro de commits con tareas finales
+**ARCHIVOS:**     DOCUMENTACION_COMMITS.md
+**DETALLE:**      Se sincroniza el historial documental para incluir la creación del README y la eliminación del script de configuración, consolidando el historial del proyecto.
+──────────────────────────────────────────
+**MENSAJE DE COMMIT:**
+```text
+feat(docs): SCRUM-12 - actualizar registro de commits con tareas finales
+
+- Se agregan las entradas para SCRUM-10, SCRUM-11 y SCRUM-12 en el archivo markdown de documentacion
+```
+──────────────────────────────────────────
+
 ---
 
 ## Tabla Resumen de Tareas (Para Importar a Jira)
@@ -182,3 +232,6 @@ fix(core): SCRUM-9 - limpieza de archivos legacy y ajustes finales
 | **SCRUM-7** | feat | frontend | Interfaz de login y estilos base | `index.html`, `app.js`, `styles.css` |
 | **SCRUM-8** | feat | frontend | Dashboard interactivo, métricas y calendario | `dashboard.html`, `dashboard.js` |
 | **SCRUM-9** | fix | core | Limpieza de archivos legacy y ajustes finales | *Varios (archivos legacy)* |
+| **SCRUM-10** | feat | docs | Agregar diagramas UML e infraestructura al proyecto | `README.md` |
+| **SCRUM-11** | delete | core | Eliminar script auxiliar de commits | `do_commits.ps1` |
+| **SCRUM-12** | feat | docs | Actualizar registro de commits con tareas finales | `DOCUMENTACION_COMMITS.md` |
