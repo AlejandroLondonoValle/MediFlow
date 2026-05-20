@@ -17,6 +17,10 @@ Puedes consultar todos los Casos de Uso, el Modelo de Dominio relacional y los D
 El proyecto está construido bajo un patrón arquitectónico en capas limpias que separa responsabilidades en: Rutas, Controladores, Servicios y Repositorios. Para entender a detalle el flujo de datos, la configuración del pool de conexiones MySQL y las decisiones técnicas:
 👉 **[Ver Guía de Infraestructura](./infrastructure_guide.md)**
 
+## Documentacion Commits
+Aquí puedes encontrar la documentación de los commits realizados al proyecto:
+👉 **[Ver Documentacion Commits](./DOCUMENTACION_COMMITS.md)**
+
 ## Instalación y Ejecución Local
 1. Clona este repositorio: `git clone https://github.com/AlejandroLondonoValle/MediFlow.git`
 2. Ve a la carpeta del proyecto e instala las dependencias: `npm install`
